@@ -1,0 +1,91 @@
+.product-details-class {
+    padding: 10px;
+}
+
+.product-details-class .product-brand {
+    color: #282c3f;
+    padding: 0px;
+    margin: 4px 0px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.product-details-class .product-title {
+    color: #535665;
+    padding: 0px;
+    margin: 4px 0px;
+    font-size: 18px;
+    opacity: .8;
+    font-weight: 400;
+}
+
+.product-details-class .product-reviews-box {
+    border: 2px solid #a5a1a1;
+    color: grey;
+    padding: 8px;
+    width: fit-content;
+}
+
+.product-details-class .product-reviews-box:hover {
+    border: 2px solid deeppink;
+    color: deeppink;
+    padding: 8px;
+    width: fit-content;
+}
+
+.product-details-class .product-price {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    cursor: pointer;
+    margin: 4px 0px;
+}
+
+.product-details-class .inclusive-of-all-taxes {
+    color: #03a685;
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+    margin: 0px;
+}
+
+hr.dashed-divider {
+    border-top: 2px dashed #bbb;
+}
+
+.size-circle-container {
+    display: flex;
+}
+
+.size-circle-container .size-circle {
+    margin: 5px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 2px solid #a09a9a;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.size-circle-container .size-circle:hover {
+    margin: 5px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 2px solid pink;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.size-circle-container .size-circle.selected-class {
+    margin: 5px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 2px solid deeppink;
+    color: deeppink;
+    background: #fff4f6;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 400;
+}
